@@ -6,4 +6,8 @@
     <RootNamespace>CodeBasement.NetCore.Metrics.Core</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\submodules\NetCore.Common\src\NetCore.Common\NetCore.Common.csproj" />
+  </ItemGroup>
+
 </Project>

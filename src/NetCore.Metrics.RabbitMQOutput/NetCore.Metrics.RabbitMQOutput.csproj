@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj" />
+    <ProjectReference Include="..\submodules\NetCore.Common\src\NetCore.Common\NetCore.Common.csproj" />
   </ItemGroup>
 
 </Project>
