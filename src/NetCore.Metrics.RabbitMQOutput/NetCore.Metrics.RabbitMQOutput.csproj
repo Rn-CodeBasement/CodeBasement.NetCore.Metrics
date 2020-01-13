@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Metrics.Core\NetCore.Metrics.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Metrics", "NetCore.Metrics\NetCore.Metrics.csproj", "{DECE7861-EEBF-4617-B546-B8FE25898F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.Core", "NetCore.Metrics.Core\NetCore.Metrics.Core.csproj", "{DECE7861-EEBF-4617-B546-B8FE25898F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Metrics.RabbitMQOutput", "NetCore.Metrics.RabbitMQOutput\NetCore.Metrics.RabbitMQOutput.csproj", "{DFAD5F40-722A-4298-8991-13D994D20CBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DECE7861-EEBF-4617-B546-B8FE25898F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECE7861-EEBF-4617-B546-B8FE25898F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECE7861-EEBF-4617-B546-B8FE25898F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAD5F40-722A-4298-8991-13D994D20CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAD5F40-722A-4298-8991-13D994D20CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAD5F40-722A-4298-8991-13D994D20CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAD5F40-722A-4298-8991-13D994D20CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
