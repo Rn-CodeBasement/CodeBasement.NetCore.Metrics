@@ -1,0 +1,3 @@
+[submodule "src/submodules/NetCore.Common"]
+	path = src/submodules/NetCore.Common
+	url = https://github.com/Rn-CodeBasement/CodeBasement.NetCore.Common.git
