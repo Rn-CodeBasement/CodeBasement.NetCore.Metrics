@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.Core", "NetCore.Metrics.Core\NetCore.Metrics.Core.csproj", "{DECE7861-EEBF-4617-B546-B8FE25898F1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Metrics.RabbitMQOutput", "NetCore.Metrics.RabbitMQOutput\NetCore.Metrics.RabbitMQOutput.csproj", "{DFAD5F40-722A-4298-8991-13D994D20CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Metrics.RabbitMQOutput", "NetCore.Metrics.RabbitMQOutput\NetCore.Metrics.RabbitMQOutput.csproj", "{DFAD5F40-722A-4298-8991-13D994D20CBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", "{3A7636E0-0BD8-4183-9DEA-C2103AC65AE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
